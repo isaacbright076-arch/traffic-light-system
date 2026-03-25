@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Traffic Light System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Traffic Light System</h2>
+
+<div class="traffic-container">
+  <div id="red" class="light red"></div>
+  <div id="yellow" class="light yellow"></div>
+  <div id="green" class="light green"></div>
+</div>
+
+<div class="controls">
+  <br>
+  <button class="mode-btn" onclick="startAuto()">AUTO MODE</button>
+  <button class="stop-btn" onclick="stopAuto()">STOP AUTO</button>
+  <button class="manual-btn" onclick="setLight('red')">RED</button>
+  <button class="manual-btn" onclick="setLight('yellow')">YELLOW</button>
+  <button class="manual-btn" onclick="setLight('green')">GREEN</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
